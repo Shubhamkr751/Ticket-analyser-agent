@@ -7,7 +7,7 @@ from langchain.chains import LLMChain    # type: ignore
 def analyze(customer_text) : 
     
     llm = ChatGoogleGenerativeAI(
-    model='gemini-pro', google_api_key="AIzaSyD5tpl8I3_pOfRjKOJ4SSGWr2oPeHC1Sp8") # type: ignore
+    model='gemini-pro', google_api_key="google API key") # type: ignore
 
     reviewPrompt = PromptTemplate(
         input_variables=['customer_review'],

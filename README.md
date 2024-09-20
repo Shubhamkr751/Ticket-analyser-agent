@@ -9,5 +9,5 @@
 
 1) run : pip install -r requirements.txt
 
-
-2) run in terminal : streamlit run app.py --> It will start serving streamlit app
+2) run in terminal : streamlit run app.py -->
+ It will start serving streamlit app
